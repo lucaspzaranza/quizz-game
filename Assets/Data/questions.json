@@ -1,0 +1,37 @@
+{
+    "questions": [
+        {
+            "question": "Porque que o Lucas é tão lindo?",
+            "options": [
+                "Porque sim.",
+                "Rapaz, tem que perguntar lá no Posto Ipiranga.",
+                "Eu não sei o que botar aqui, mas acho que vão ter algumas respostas mais longas, então tô experimentando aqui pra ver qual é...",
+                "É o mapa astral...",
+                "Nem Freud explica"
+            ],
+            "rightAnwser": 0
+        },
+        {
+            "question": "Qual dos signos abaixo é a exaltação de Mercúrio?",
+            "options": [
+                "Gêmeos",
+                "Peixes",
+                "Aquário",
+                "Câncer",
+                "Virgem"
+            ],
+            "rightAnwser": 4
+        },
+        {
+            "question": "O aspecto chamado Trígono consiste em dois planetas estarem formando um ângulo de:",
+            "options": [
+                "90º",
+                "45º",
+                "120º",
+                "180º",
+                "0º"
+            ],
+            "rightAnwser": 2
+        }
+    ]
+}

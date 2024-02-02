@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1f40594da4c8e41838965b9c341000, type: 3}
+  m_Name: QuizzQuestions
+  m_EditorClassIdentifier: 
+  _questions:
+  - _statement: "Porque que o Lucas \xE9 t\xE3o lindo?"
+    _options:
+    - Porque sim.
+    - "Rapaz, tem que perguntar l\xE1 no Posto Ipiranga."
+    - "Eu n\xE3o sei o que botar aqui, mas acho que v\xE3o ter algumas respostas
+      mais longas, ent\xE3o t\xF4 experimentando aqui pra ver qual \xE9..."
+    - "\xC9 o mapa astral."
+    - Nem Freud explica.
+    _rightAnswer: 0
+  - _statement: "Qual dos signos abaixo \xE9 a exalta\xE7\xE3o de Merc\xFArio?"
+    _options:
+    - "G\xEAmeos"
+    - Peixes
+    - "Aqu\xE1rio"
+    - "C\xE2ncer"
+    - Virgem
+    _rightAnswer: 4
+  - _statement: "O aspecto chamado Tr\xEDgono consiste em dois planetas estarem formando
+      um \xE2ngulo de:"
+    _options:
+    - "90\xB0"
+    - "45\xB0"
+    - "120\xB0"
+    - "180\xB0"
+    - "0\xB0"
+    _rightAnswer: 2
