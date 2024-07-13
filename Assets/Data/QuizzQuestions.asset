@@ -13,29 +13,76 @@ MonoBehaviour:
   m_Name: QuizzQuestions
   m_EditorClassIdentifier: 
   _questions:
-  - _statement: "Porque que o Lucas \xE9 t\xE3o lindo?"
+  - _statement: "Qual desses escritores famosos \xE9 conhecido por suas obras rom\xE2nticas?"
     _options:
-    - Porque sim.
-    - "Rapaz, tem que perguntar l\xE1 no Posto Ipiranga."
-    - "Eu n\xE3o sei o que botar aqui, mas acho que v\xE3o ter algumas respostas
-      mais longas, ent\xE3o t\xF4 experimentando aqui pra ver qual \xE9..."
-    - "\xC9 o mapa astral."
-    - Nem Freud explica.
+    - William Shakespeare
+    - Charles Dickens
+    - Stephen King
+    - George Orwell
     _rightAnswer: 0
-  - _statement: "Qual dos signos abaixo \xE9 a exalta\xE7\xE3o de Merc\xFArio?"
+  - _statement: "Qual desses filmes \xE9 um cl\xE1ssico do romance?"
     _options:
-    - "G\xEAmeos"
-    - Peixes
-    - "Aqu\xE1rio"
-    - "C\xE2ncer"
-    - Virgem
-    _rightAnswer: 4
-  - _statement: "O aspecto chamado Tr\xEDgono consiste em dois planetas estarem formando
-      um \xE2ngulo de:"
+    - Titanic
+    - "O Poderoso Chef\xE3o"
+    - Jurassic Park
+    - Batman
+    _rightAnswer: 0
+  - _statement: "Em que pa\xEDs \xE9 comemorado o Dia Dos Namorados em 14 de Fevereiro?"
     _options:
-    - "90\xB0"
-    - "45\xB0"
-    - "120\xB0"
-    - "180\xB0"
-    - "0\xB0"
+    - Brasil
+    - Estados Unidos
+    - "Fran\xE7a"
+    - "It\xE1lia"
+    _rightAnswer: 1
+  - _statement: "Qual desses animais \xE9 frequentemente associado ao romance?"
+    _options:
+    - "Le\xE3o"
+    - Golfinho
+    - Urso
+    - "Cora\xE7\xE3o"
+    _rightAnswer: 1
+  - _statement: "Qual \xE9 o s\xEDmbolo universal do amor?"
+    _options:
+    - Rosa
+    - Anel
+    - "Cora\xE7\xE3o"
+    - Estrela
     _rightAnswer: 2
+  - _statement: "Qual \xE9 a cor tradicionalmente associada ao romantismo?"
+    _options:
+    - Azul
+    - Verde
+    - Vermelho
+    - Amarelo
+    _rightAnswer: 2
+  - _statement: "Qual \xE9 o nome do Deus Romano do amor?"
+    _options:
+    - Zeus
+    - Cupido
+    - Apolo
+    - hades
+    _rightAnswer: 1
+  - _statement: "Qual \xE9 o t\xEDtulo do famoso livro de Jane Austen que conta a
+      hist\xF3ria de"
+    _options:
+    - Jane Eyre
+    - Emma
+    - Orgulho e Preconceito
+    - "Persuas\xE3o"
+    _rightAnswer: 2
+  - _statement: "Qual dessas m\xFAsicas \xE9 considerada uma das mais rom\xE2nticas
+      de todos os tempos?"
+    _options:
+    - Thriller - Michael Jackson
+    - My Heart Will Go On - Celine Dion
+    - Bohemian Rhapsody - Queen
+    - Like a Rolling Stone - Bob Dylan
+    _rightAnswer: 1
+  - _statement: "Qual \xE9 o nome do famoso casal de amantes de Verona na pe\xE7a
+      de William Shakespeare \"Romeu e Julieta\"?"
+    _options:
+    - Romeu e Julieta
+    - Ricardo e Isabela
+    - "Orfeu e Eur\xEDdice"
+    - Tony e Marya
+    _rightAnswer: 0

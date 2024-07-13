@@ -1,21 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] private GameObject _rightAnswerMenu;
     [SerializeField] private GameObject _wrongAnswerMenu;
+    [SerializeField] private GameObject _endScreen;
     [SerializeField] private GameObject _currentQuestionMenu;
     [SerializeField] private GameObject _questionMenuPrefab;
     [SerializeField] private QuizzQuestionsSO _questionsData;
     [SerializeField] private Transform _inGameTransform;
+    [SerializeField] private TextMeshProUGUI _resultTMPRO;
 
     [SerializeField] private int _currentQuestion;
     public int CurrentQuestion => _currentQuestion;
 
     [SerializeField] private int _rightAnswersCount;
     public int RightAnswersCount => _rightAnswersCount;
+
+    private int _questionCount;
+    private List<string> _optionsLetters = new List<string>()
+    {
+       "A) ",
+       "B) ",
+       "C) ",
+       "D) "
+    };
 
     private void OnEnable()
     {
@@ -39,14 +52,14 @@ public class GameController : MonoBehaviour
             newQuestionInstance.name = $"Question {questionCount + 1}";
 
             var options = newQuestionInstance.transform.
-                GetChild(1).GetComponent<QuestionOptionsGroupManager>();
+                GetComponentInChildren<QuestionOptionsGroupManager>();
             options.QuestionIndex = questionCount;
 
             QuestionUITexts questionUI = newQuestionInstance.GetComponent<QuestionUITexts>();
             questionUI.Title.text = question.Statement;
             for (int i = 0; i < question.Options.Count; i++)
             {
-                questionUI.Options[i].text = question.Options[i];
+                questionUI.Options[i].text = _optionsLetters[i] + question.Options[i];
             }
 
             if (questionCount > 0)
@@ -54,6 +67,7 @@ public class GameController : MonoBehaviour
             questionCount++;
         }
         _currentQuestion = 0;
+        _questionCount = questionCount;
     }
 
     public void CheckQuestion(int questionIndex, QuestionOptionsGroupManager questionGroup)
@@ -72,8 +86,26 @@ public class GameController : MonoBehaviour
     public void GetNextQuestion()
     {
         _currentQuestion++;
-        _currentQuestionMenu = _inGameTransform.GetChild(_currentQuestion).gameObject;
-        _currentQuestionMenu.SetActive(true);
+        if (_currentQuestion < _questionCount)
+        {
+            _currentQuestionMenu = _inGameTransform.GetChild(_currentQuestion).gameObject;
+            _currentQuestionMenu.SetActive(true);
+        }
+        else
+        {
+            UpdateEndGameScreenResults();
+            _endScreen.SetActive(true);
+        }
+    }
+
+    public void UpdateEndGameScreenResults()
+    {
+        _resultTMPRO.text = $"{_rightAnswersCount}";
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
     }
 
     private void OnDisable()

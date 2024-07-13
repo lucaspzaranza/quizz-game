@@ -1,0 +1,146 @@
+Relatório de pacote
+
+-----------------------------------------------------------------------------
+Documento:
+Nome: LAYOUT-GAME-AMERICA-NEWS.pdf
+Modo de cor: Cor RGB
+Perfil de cor: sRGB IEC61966-2.1
+Unidades da régua: pixels
+Dimensões da prancheta: 720 px x 1280 px
+Mostrar imagens no modo de contorno: DESATIVADO
+Realçar fontes substituídas: DESATIVADO
+Realçar glifos substituídos: DESATIVADO
+Preservar capacidade de edição do texto
+Simular papel colorido: DESATIVADO
+
+-----------------------------------------------------------------------------
+Objetos de cor especial:
+
+-----------------------------------------------------------------------------
+Fontes ausentes:NENHUM
+
+-----------------------------------------------------------------------------
+Fontes protegidas que não foram empacotadas:NENHUM
+
+-----------------------------------------------------------------------------
+Fontes:
+Helvetica Neue Condensed Black (TrueType)
+Pixel Gamer Personal use (OTF)
+
+-----------------------------------------------------------------------------
+Fontes incorporadas:
+NENHUM
+
+-----------------------------------------------------------------------------
+Vínculos ausentes:
+NENHUM
+
+-----------------------------------------------------------------------------
+Imagens vinculadas:
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada
+
+
+/Usuários/administrator/Documentos/CLIENTES/06 - JUNHO 2024/AMERICA NEWS/LAYOUT.psd
+Tipo: RGB
+Bits por pixel: 24
+Canais: 3
+Tamanho: 2700K, 720 por 1280 pixels
+Dimensões: 720 por 1280 pontos 
+Resolução: 72 por 72 pixels por polegada

@@ -2,11 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestionOptionsGroupManager : MonoBehaviour
 {
     public static Action<int, QuestionOptionsGroupManager> OnAnswerSent;
 
+    [SerializeField] private Button _nextQuestionBtn;
     [SerializeField] private int _questionIndex;
     public int QuestionIndex
     {
@@ -41,11 +43,14 @@ public class QuestionOptionsGroupManager : MonoBehaviour
         }
 
         _selectedOption = _checkmarks.IndexOf(currentCheckmark);
+        if(_selectedOption >  -1)
+            _nextQuestionBtn.interactable = true;
     }
 
     private void OnNoCheckmarkSelected()
     {
         _selectedOption = -1;
+        _nextQuestionBtn.interactable = false;
     }
 
     public void SendAnswer()
